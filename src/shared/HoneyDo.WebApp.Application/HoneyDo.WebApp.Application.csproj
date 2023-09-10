@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HoneyDo.SqlDb\HoneyDo.SqlDb.csproj" />
+      <ProjectReference Include="..\HoneyDo.WebApp.Application.Abstractions\HoneyDo.WebApp.Application.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

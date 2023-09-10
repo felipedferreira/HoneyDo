@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Misc", "0 - Misc", "{4D990C03-C7C8-4B7D-9E44-788AF4BA41B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{6E4B47D9-823E-466F-A211-E5C959449CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyDo.WebApp.Core", "src\application\HoneyDo.WebApp.Core\HoneyDo.WebApp.Core.csproj", "{093694F2-0DF2-4134-88A3-BA57C196C734}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Shared", "2 - Shared", "{538E0D71-A2B2-4F2C-9176-194751B660B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyDo.WebApp.Application", "src\shared\HoneyDo.WebApp.Application\HoneyDo.WebApp.Application.csproj", "{E7C230BC-1962-4CB2-BC8A-ABB3B1158D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyDo.SqlDb", "src\shared\HoneyDo.SqlDb\HoneyDo.SqlDb.csproj", "{C2B09C01-D2E6-4602-B0F8-B82D47A9DE33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyDo.WebApp.Application.Abstractions", "src\shared\HoneyDo.WebApp.Application.Abstractions\HoneyDo.WebApp.Application.Abstractions.csproj", "{CF7DA196-384D-4151-ADDF-C3A5380F0A09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{093694F2-0DF2-4134-88A3-BA57C196C734} = {6E4B47D9-823E-466F-A211-E5C959449CB3}
+		{E7C230BC-1962-4CB2-BC8A-ABB3B1158D33} = {538E0D71-A2B2-4F2C-9176-194751B660B6}
+		{C2B09C01-D2E6-4602-B0F8-B82D47A9DE33} = {538E0D71-A2B2-4F2C-9176-194751B660B6}
+		{CF7DA196-384D-4151-ADDF-C3A5380F0A09} = {538E0D71-A2B2-4F2C-9176-194751B660B6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{093694F2-0DF2-4134-88A3-BA57C196C734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093694F2-0DF2-4134-88A3-BA57C196C734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093694F2-0DF2-4134-88A3-BA57C196C734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093694F2-0DF2-4134-88A3-BA57C196C734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C230BC-1962-4CB2-BC8A-ABB3B1158D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C230BC-1962-4CB2-BC8A-ABB3B1158D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C230BC-1962-4CB2-BC8A-ABB3B1158D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C230BC-1962-4CB2-BC8A-ABB3B1158D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B09C01-D2E6-4602-B0F8-B82D47A9DE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B09C01-D2E6-4602-B0F8-B82D47A9DE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B09C01-D2E6-4602-B0F8-B82D47A9DE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B09C01-D2E6-4602-B0F8-B82D47A9DE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7DA196-384D-4151-ADDF-C3A5380F0A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7DA196-384D-4151-ADDF-C3A5380F0A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7DA196-384D-4151-ADDF-C3A5380F0A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7DA196-384D-4151-ADDF-C3A5380F0A09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
